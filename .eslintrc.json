@@ -31,8 +31,7 @@
         "react",
         "@typescript-eslint",
         "prefer-arrow",
-        "prettier",
-        "styled-components-varname"
+        "prettier"
     ],
     "rules": {
         "react/react-in-jsx-scope": "off",
@@ -124,17 +123,6 @@
         "react/no-array-index-key": "off",
         "react/prop-types": "off",
         "sonarjs/no-nested-template-literals": "off",
-        "styled-components-varname/varname": [
-            "error",
-            {
-                "extendedStyle": {
-                    "prefix": "S"
-                },
-                "tagStyle": {
-                    "prefix": "S"
-                }
-            }
-        ],
         "unicorn/filename-case": [
             "error",
             {
